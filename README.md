@@ -1,9 +1,9 @@
-# py_error_boundary
+# Python Error Boundary
 [![PyPI version](https://badge.fury.io/py/py-error-boundary.svg)](https://badge.fury.io/py/py-error-boundary)
 &nbsp;&nbsp;
 ![GitHub License](https://img.shields.io/github/license/suyogkulkarnigit/py_error_boundary)
 
-**py_error_boundary** is a lightweight Python package that simplifies error handling by providing explicit, easy-to-understand error messages. Created for a personal project to make debugging more intuitive and less frustrating.
+**Python error boundary** is a lightweight Python package that simplifies error handling by providing explicit, easy-to-understand error messages. Created for a personal project to make debugging more intuitive and less frustrating.
 
 ---
 
@@ -18,7 +18,7 @@ pip install py_error_boundary
 ## **Description**
 
 
-The class takes a callable function along with all its required parameters as class arguments. Using these, the class invokes your function. For example:
+The `ErrorBoundary` class takes a callable function along with all its required parameters as class arguments. Using these, the class invokes your function. For example:
 ```python
 ErrorBoundary(callable, param1, param2, ..., n)
 ```
