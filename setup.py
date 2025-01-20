@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="py_error_boundary",
-    version="0.1.0",
+    version="0.1.1",
     description="A simple Python package for explicit errors",
     packages=find_packages(),
     author="Suyog Kulkarni",
